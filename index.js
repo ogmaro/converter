@@ -75,7 +75,7 @@ const caller = async () => {
     
     csv_writer.pipe(writableStream); 
   
-    console.log("Finished writing data"); // This logs that the data has been written to the new csv file
+    console.log("Completed");  
   }
 }
 
